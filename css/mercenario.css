@@ -1,5 +1,5 @@
 body {
-    background-image: url(/img/fundo.png);
+    background-image: url(/img/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -21,25 +21,120 @@ body {
 #inicio {
     width: 500px;
     height: 500px;
-    background: red;
+    /* background: red; */
     margin: 10px 10px;
-    /* display: none; */
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#predio {
+    max-width: 500px;
+}
+
+#gameoverImg {
+    max-width: 500px;
 }
 
 #gameover {
     width: 500px;
     height: 500px;
-    background: blue;
+    /* background: blue; */
     margin: 10px 10px;
     display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+    font-size: 20px;
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #telhado {
     width: 500px;
     height: 500px;
-    background: green;
+    /* background: green; */
     margin: 10px 10px;
     display: none;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#laboratorio {
+    width: 500px;
+    height: 500px;
+    /* background: green; */
+    margin: 10px 10px;
+    display: none;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#laboratorioIMG {
+    max-width: 500px;
+}
+
+#fimbom {
+    width: 500px;
+    height: 500px;
+    /* background: green; */
+    margin: 10px 10px;
+    display: none;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fimbomIMG {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+#fimruim {
+    width: 500px;
+    height: 500px;
+    /* background: green; */
+    margin: 10px 10px;
+    display: none;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fimruimIMG {
+    max-width: 500px;
 }
 
 .copyright {
