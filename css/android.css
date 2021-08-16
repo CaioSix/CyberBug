@@ -1,0 +1,160 @@
+body {
+    background-image: url('./../img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabeçalho {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#inicio {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: flex;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#inicioandroid {
+    max-width: 500px;
+}
+
+#sequestro {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#robosequestroIMG {
+    max-width: 500px;
+}
+
+#gameoverImg {
+    max-width: 500px;
+}
+
+#gameover {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pegaEspada {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pegaEspadaIMG {
+    max-width: 500px;
+}
+
+#humanosPegam {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#humanospegamIMG {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+#engenhePegam {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#engenhePegamIMG {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+#fugaperf {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fugaperfIMG {
+    max-width: 500px;
+}
