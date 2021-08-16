@@ -15,7 +15,8 @@
                         font-size: 20px;
                         color: #fdef00;
                         font-weight: bold;
-                        background: rgba(0, 0, 0, 0.486);
+                        background: rgba(0, 0, 0, 0.623);
+                        margin-bottom: 5px;
                     }
                     
                     .choose {
@@ -26,7 +27,7 @@
                     }
                     
                     .mercenario {
-                        background: rgba(0, 0, 0, 0.486);
+                        background: rgba(0, 0, 0, 0.89);
                         font-weight: bold;
                         margin: 10 10px;
                         max-width: 30%;
@@ -36,7 +37,7 @@
                     }
                     
                     .mecanico {
-                        background: rgba(0, 0, 0, 0.486);
+                        background: rgba(0, 0, 0, 0.89);
                         margin: 10 10px;
                         max-width: 30%;
                         text-align: center;
@@ -45,7 +46,7 @@
                     }
                     
                     .android {
-                        background: rgba(0, 0, 0, 0.486);
+                        background: rgba(0, 0, 0, 0.89);
                         margin: 10 10px;
                         max-width: 30%;
                         text-align: center;
@@ -63,7 +64,7 @@
                         height: 30px;
                         background-color: yellow;
                         font-weight: bold;
-                        /* margin: 5px 5px; */
+                        margin: 5px 5px;
                     }
                     
                     .copyright {

@@ -8,11 +8,10 @@
 // function teste()
 setTimeout(function() {
     window.onload = escolha1()
-}, 1000);
+}, document.getElementById('inicio').textContent.length * 25);
 
 
 function escolha1() {
-
     while (true) {
         var escolhaMerce1 = prompt(`Qual caminho voce gostaria de seguir ?
             1 - Frente
@@ -28,7 +27,7 @@ function escolha1() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, 5000);
+        }, document.getElementById('gameover').textContent.length * 25);
 
 
 
@@ -38,7 +37,7 @@ function escolha1() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, 5000);
+        }, document.getElementById('gameover').textContent.length * 25);
 
     } else if (escolhaMerce1 == 3) {
 
@@ -47,7 +46,7 @@ function escolha1() {
 
         return setTimeout(function() {
             window.onload = escolhamercenario2()
-        }, 5000);
+        }, document.getElementById('telhado').textContent.length * 25);
 
     }
 }
@@ -71,7 +70,7 @@ function escolhamercenario2() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, 5000);
+        }, document.getElementById('gameover').textContent.length * 25);
 
     } else if (escolha2 == 2) {
         document.getElementById('telhado').style.display = 'none'
@@ -80,7 +79,7 @@ function escolhamercenario2() {
 
         return setTimeout(function() {
             window.onload = escolhamercenario3()
-        }, 5000);
+        }, document.getElementById('laboratorio').textContent.length * 25);
 
 
     } else if (escolha2 == 3) {
@@ -89,7 +88,7 @@ function escolhamercenario2() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, 5000);
+        }, document.getElementById('gameover').textContent.length * 25);
 
     }
 
@@ -110,7 +109,7 @@ function escolhamercenario3() {
         document.getElementById('fimbom').style.display = "flex";
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, 5000);
+        }, document.getElementById('fimbom').textContent.length * 25);
 
 
     } else if (escolha3 == 2) {
@@ -118,7 +117,7 @@ function escolhamercenario3() {
         document.getElementById('fimruim').style.display = "flex";
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, 5000);
+        }, document.getElementById('fimruim').textContent.length * 25);
 
     }
 

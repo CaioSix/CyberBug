@@ -15,14 +15,13 @@ body {
     text-align: center;
     font-size: 20px;
     color: white;
-    /* font-weight: bold; */
 }
 
 #inicio {
     width: 500px;
     height: 500px;
-    display: flex;
     margin: 10px 10px;
+    display: flex;
     border: solid 2px;
     text-align: center;
     color: #fdef00;
@@ -34,18 +33,13 @@ body {
     justify-content: center;
 }
 
-#predio {
-    max-width: 500px;
-}
-
-#gameoverImg {
+#inicioMecanico {
     max-width: 500px;
 }
 
 #gameover {
     width: 500px;
     height: 500px;
-    /* background: blue; */
     margin: 10px 10px;
     display: none;
     border: solid 2px;
@@ -54,54 +48,21 @@ body {
     background: rgba(0, 0, 0, 0.89);
     font-weight: bold;
     font-size: 20px;
-    /* display: flex; */
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
-#telhado {
-    width: 500px;
-    height: 500px;
-    /* background: green; */
-    margin: 10px 10px;
-    display: none;
-    text-align: center;
-    color: #fdef00;
-    background: rgba(0, 0, 0, 0.89);
-    font-weight: bold;
-    font-size: 20px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#laboratorio {
-    width: 500px;
-    height: 500px;
-    /* background: green; */
-    margin: 10px 10px;
-    display: none;
-    text-align: center;
-    color: #fdef00;
-    background: rgba(0, 0, 0, 0.89);
-    font-weight: bold;
-    font-size: 20px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#laboratorioIMG {
+#gameoverImg {
     max-width: 500px;
 }
 
-#fimbom {
+#invasao {
     width: 500px;
     height: 500px;
-    /* background: green; */
     margin: 10px 10px;
     display: none;
+    border: solid 2px;
     text-align: center;
     color: #fdef00;
     background: rgba(0, 0, 0, 0.89);
@@ -112,36 +73,123 @@ body {
     justify-content: center;
 }
 
-#fimbomIMG {
+#invasaoIMG {
+    max-width: 500px;
+}
+
+#traicao {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#traicaoIMG {
+    max-width: 500px;
+}
+
+#fugirArmado {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fugirIMG {
+    max-width: 500px;
+}
+
+#meuAndroid {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mortoTiroteio {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mortoTiroteioIMG {
+    max-width: 500px;
+}
+
+#fugaHelic {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fugaHelicIMG {
+    max-width: 500px;
+}
+
+#pegaArmadura {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+    display: none;
+    border: solid 2px;
+    text-align: center;
+    color: #fdef00;
+    background: rgba(0, 0, 0, 0.89);
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pegaArmaduraIMG {
     max-width: 500px;
     max-height: 300px;
-}
-
-#fimruim {
-    width: 500px;
-    height: 500px;
-    /* background: green; */
-    margin: 10px 10px;
-    display: none;
-    text-align: center;
-    color: #fdef00;
-    background: rgba(0, 0, 0, 0.89);
-    font-weight: bold;
-    font-size: 20px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#fimruimIMG {
-    max-width: 500px;
-}
-
-.copyright {
-    text-align: center;
-    margin-top: 50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    background-color: black;
 }
