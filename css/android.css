@@ -5,6 +5,11 @@ body {
     font: normal 20pt arial;
 }
 
+img {
+    max-width: 100%;
+    /* max-height: 400px; */
+}
+
 .container {
     display: flex;
     flex-direction: column;
