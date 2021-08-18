@@ -6,49 +6,49 @@
 // }
 
 // function teste()
-// setTimeout(function() {
-window.onload = escolha1()
+setTimeout(function() {
+    window.onload = escolha1()
 }, document.getElementById('inicio').textContent.length * 25);
 
 
-// function escolha1() {
-while (true) {
-    var escolhaMerce1 = prompt(`Qual caminho voce gostaria de seguir ?
+function escolha1() {
+    while (true) {
+        var escolhaMerce1 = prompt(`Qual caminho voce gostaria de seguir ?
             1 - Frente
             2 - Tras
             3 - Telhado
             `)
-    if (escolhaMerce1 == 1 || escolhaMerce1 == 2 || escolhaMerce1 == 3)
-        break
-}
-if (escolhaMerce1 == 1) {
-    document.getElementById('inicio').style.display = 'none';
-    document.getElementById('gameover').style.display = 'flex';
+        if (escolhaMerce1 == 1 || escolhaMerce1 == 2 || escolhaMerce1 == 3)
+            break
+    }
+    if (escolhaMerce1 == 1) {
+        document.getElementById('inicio').style.display = 'none';
+        document.getElementById('gameover').style.display = 'flex';
 
-    return setTimeout(function() {
-        window.onload = window.location.href = 'index.html'
-    }, document.getElementById('gameover').textContent.length * 25);
+        return setTimeout(function() {
+            window.onload = window.location.href = 'index.html'
+        }, document.getElementById('gameover').textContent.length * 25);
 
 
 
-} else if (escolhaMerce1 == 2) {
-    document.getElementById('inicio').style.display = 'none';
-    document.getElementById('gameover').style.display = 'flex';
+    } else if (escolhaMerce1 == 2) {
+        document.getElementById('inicio').style.display = 'none';
+        document.getElementById('gameover').style.display = 'flex';
 
-    return setTimeout(function() {
-        window.onload = window.location.href = 'index.html'
-    }, document.getElementById('gameover').textContent.length * 25);
+        return setTimeout(function() {
+            window.onload = window.location.href = 'index.html'
+        }, document.getElementById('gameover').textContent.length * 25);
 
-} else if (escolhaMerce1 == 3) {
+    } else if (escolhaMerce1 == 3) {
 
-    document.getElementById('inicio').style.display = 'none';
-    document.getElementById('telhado').style.display = 'flex'
+        document.getElementById('inicio').style.display = 'none';
+        document.getElementById('telhado').style.display = 'flex'
 
-    return setTimeout(function() {
-        window.onload = escolhamercenario2()
-    }, document.getElementById('telhado').textContent.length * 25);
+        return setTimeout(function() {
+            window.onload = escolhamercenario2()
+        }, document.getElementById('telhado').textContent.length * 25);
 
-}
+    }
 }
 
 
