@@ -47,7 +47,7 @@ img {
 #sequestro {
     width: 60%;
     height: 45%;
-    margin: 10px 10px;
+    margin: 75px;
     display: none;
     border: solid 2px;
     text-align: center;
@@ -122,7 +122,7 @@ img {
 
 #humanospegamIMG {
     width: 100%;
-    max-height: 300px;
+    height: 10%;
 }
 
 #engenhePegam {
@@ -167,11 +167,27 @@ img {
 
 .copyright {
     text-align: center;
-    background-color: black;
     margin-top: 25px;
     color: white;
     font-weight: bold;
     font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {}
+footer {
+    background: black;
+    margin: 22px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    ;
+}
+
+@media only screen and (max-width: 600px) {
+    #sequestro {
+        margin: 0;
+    }
+    #inicio {
+        font-size: 15px;
+    }
+}

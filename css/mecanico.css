@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font: normal 18pt arial;
+    height: 100%;
 }
 
 img {
@@ -15,6 +16,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 #cabeçalho {
@@ -26,7 +28,7 @@ img {
 #inicio {
     width: 60%;
     height: 45%;
-    margin: 10px 10px;
+    margin: 20px 10px;
     display: flex;
     border: solid 2px;
     text-align: center;
@@ -47,7 +49,7 @@ img {
 #gameover {
     width: 60%;
     height: 45%;
-    margin: 10px 10px;
+    margin: 70px 10px;
     display: none;
     border: solid 2px;
     text-align: center;
@@ -67,7 +69,7 @@ img {
 #invasao {
     width: 60%;
     height: 45%;
-    margin: 10px 10px;
+    margin: 40px 10px;
     display: none;
     border: solid 2px;
     text-align: center;
@@ -87,7 +89,7 @@ img {
 #traicao {
     width: 60%;
     height: 45%;
-    margin: 10px 10px;
+    margin: 40px 10px;
     display: none;
     border: solid 2px;
     text-align: center;
@@ -107,7 +109,7 @@ img {
 #fugirArmado {
     width: 60%;
     height: 45%;
-    margin: 10px 10px;
+    margin: 40px 10px;
     display: none;
     border: solid 2px;
     text-align: center;
@@ -127,7 +129,7 @@ img {
 #meuAndroid {
     width: 60%;
     height: 45%;
-    margin: 10px 10px;
+    margin: 40px 10px;
     display: none;
     border: solid 2px;
     text-align: center;
@@ -143,7 +145,7 @@ img {
 #mortoTiroteio {
     width: 60%;
     height: 45%;
-    margin: 10px 10px;
+    margin: 65px 10px;
     display: none;
     border: solid 2px;
     text-align: center;
@@ -163,7 +165,7 @@ img {
 #fugaHelic {
     width: 60%;
     height: 45%;
-    margin: 10px 10px;
+    margin: 30px 10px;
     display: none;
     border: solid 2px;
     text-align: center;
@@ -201,6 +203,16 @@ img {
     /* max-height: 300px; */
 }
 
+footer {
+    background: black;
+    margin: 22px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
 .copyright {
     text-align: center;
     background-color: black;
@@ -208,4 +220,38 @@ img {
     color: white;
     font-weight: bold;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        height: 80px;
+    }
+    #inicio {
+        font-size: 15px;
+        height: 400px;
+        width: 90%;
+        margin-top: 30px;
+    }
+    #fugaHelic {
+        margin: 70px;
+    }
+    #mortoTiroteio {
+        margin: 80px;
+    }
+    #meuAndroid {
+        margin: 90px;
+    }
+    #fugirArmado {
+        margin: 90px;
+    }
+    #traicao {
+        margin-bottom: 110px;
+    }
+    #invasao {
+        margin-top: 90px;
+    }
+    #gameover {
+        /* margin: 120px; */
+        height: 330px;
+    }
 }

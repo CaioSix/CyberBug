@@ -9,12 +9,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font: normal 18pt arial;
-    /* height: 100px; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
     max-width: 100%;
-    /* max-height: 400px; */
+    max-height: 100%;
 }
 
 #cabeçalho {
@@ -38,7 +41,7 @@ img {
 #inicio {
     /* max-width: 30%; */
     width: 80%;
-    height: 45%;
+    height: 80%;
     display: flex;
     margin: 10px 10px;
     border: solid 2px;
@@ -61,8 +64,8 @@ img {
 }
 
 #gameover {
-    width: 60%;
-    height: 45%;
+    width: 80%;
+    height: 80%;
     /* background: blue; */
     margin: 10px 10px;
     display: none;
@@ -72,7 +75,6 @@ img {
     background: rgba(0, 0, 0, 0.89);
     font-weight: bold;
     font-size: 20px;
-    /* display: flex; */
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -80,9 +82,10 @@ img {
 
 #telhado {
     width: 60%;
-    height: 45%;
+    height: auto;
     /* background: green; */
     margin: 10px 10px;
+    margin-bottom: 70px;
     display: none;
     text-align: center;
     color: #fdef00;
@@ -160,13 +163,30 @@ img {
 
 .copyright {
     text-align: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     color: white;
     font-weight: bold;
     font-size: 20px;
     background-color: black;
-    width: 100%;
+    justify-self: end;
+    /* width: 100%; */
 }
+
+footer {
+    background: black;
+    margin: 22px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    ;
+}
+
+
+/* #textoGameover { */
+
+
+/* padding: 12px; */
 
 @media only screen and (max-width: 600px) {
     #cabeçalho {
@@ -182,6 +202,21 @@ img {
         /* width: 100%; */
     }
     #telhado {
-        /* width: 100%; */
+        width: 100%;
+    }
+    #laboratorio {
+        margin-bottom: 60px;
+    }
+    #fimruim {
+        margin-bottom: 70px;
+        font-size: 10px;
+    }
+    #fimruimIMG {
+        height: 290px;
+    }
+    #gameover {
+        margin-top: 60px;
+        margin-bottom: 90px;
+        width: 100%;
     }
 }
