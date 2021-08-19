@@ -1,6 +1,6 @@
 setTimeout(function() {
     window.onload = escolha1AND()
-}, document.getElementById('inicio').textContent.length * 25);
+}, document.getElementById('inicio').textContent.length * 35);
 
 function escolha1AND() {
     while (true) {
@@ -18,14 +18,14 @@ function escolha1AND() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('gameover').textContent.length * 25);
+        }, document.getElementById('gameover').textContent.length * 30);
     } else if (escolhaAnd1 == 2) {
         document.getElementById('inicio').style.display = 'none';
         document.getElementById('sequestro').style.display = 'flex';
 
         return setTimeout(function() {
             window.onload = escolha2AND()
-        }, document.getElementById('sequestro').textContent.length * 25);
+        }, document.getElementById('sequestro').textContent.length * 30);
 
     } else if (escolhaAnd1 == 3) {
         document.getElementById('inicio').style.display = 'none';
@@ -33,7 +33,7 @@ function escolha1AND() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('gameover').textContent.length * 25);
+        }, document.getElementById('gameover').textContent.length * 30);
     }
 }
 
@@ -42,7 +42,7 @@ function escolha2AND() {
         var escolhaAnd2 = prompt(`Qual caminho voce gostaria de seguir ?
             1 - Vou atacar todos!, ninguem pode me parar!
             2 - Pegar uma espada a lazer! Sou o novo Jedy!
-            3 - Sair correndo, não ligo para eles, so quero ir para cas!
+            3 - Sair correndo, não ligo para eles, so quero ir para casa!
         `)
 
         if (escolhaAnd2 == 1 || escolhaAnd2 == 2 || escolhaAnd2 == 3)
@@ -53,7 +53,7 @@ function escolha2AND() {
         document.getElementById('gameover').style.display = 'flex'
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('gameover').textContent.length * 25);
+        }, document.getElementById('gameover').textContent.length * 30);
 
 
     } else if (escolhaAnd2 == 2) {
@@ -62,7 +62,7 @@ function escolha2AND() {
 
         return setTimeout(function() {
             window.onload = escolha3AND()
-        }, document.getElementById('pegaEspada').textContent.length * 25);
+        }, document.getElementById('pegaEspada').textContent.length * 30);
 
 
 
@@ -72,7 +72,7 @@ function escolha2AND() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('gameover').textContent.length * 25);
+        }, document.getElementById('gameover').textContent.length * 30);
 
     }
 }
@@ -92,7 +92,7 @@ function escolha3AND() {
         document.getElementById('humanosPegam').style.display = 'flex'
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('humanosPegam').textContent.length * 25);
+        }, document.getElementById('humanosPegam').textContent.length * 30);
 
 
     } else if (escolhaAnd3 == 2) {
@@ -100,13 +100,13 @@ function escolha3AND() {
         document.getElementById('fugaperf').style.display = 'flex'
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('fugaperf').textContent.length * 25);
+        }, document.getElementById('fugaperf').textContent.length * 30);
 
     } else if (escolhaAnd3 == 3) {
         document.getElementById('pegaEspada').style.display = 'none'
         document.getElementById('engenhePegam').style.display = 'flex'
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('engenhePegam').textContent.length * 25);
+        }, document.getElementById('engenhePegam').textContent.length * 30);
     }
 }

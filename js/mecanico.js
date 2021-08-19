@@ -18,14 +18,14 @@ function escolha1MEC() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('gameover').textContent.length * 25);
+        }, document.getElementById('gameover').textContent.length * 30);
     } else if (escolhaMec1 == 2) {
         document.getElementById('inicio').style.display = 'none';
         document.getElementById('invasao').style.display = 'flex';
 
         return setTimeout(function() {
             window.onload = escolha2MEC()
-        }, document.getElementById('invasao').textContent.length * 25);
+        }, document.getElementById('invasao').textContent.length * 30);
 
     } else if (escolhaMec1 == 3) {
         document.getElementById('inicio').style.display = 'none';
@@ -33,7 +33,7 @@ function escolha1MEC() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('traicao').textContent.length * 25);
+        }, document.getElementById('traicao').textContent.length * 30);
     }
 }
 
@@ -53,7 +53,7 @@ function escolha2MEC() {
         document.getElementById('traicao').style.display = 'flex'
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('traicao').textContent.length * 25);
+        }, document.getElementById('traicao').textContent.length * 30);
 
 
     } else if (escolhaMec2 == 2) {
@@ -62,7 +62,7 @@ function escolha2MEC() {
 
         return setTimeout(function() {
             window.onload = escolhaMEC3()
-        }, document.getElementById('fugirArmado').textContent.length * 25);
+        }, document.getElementById('fugirArmado').textContent.length * 30);
 
 
 
@@ -72,7 +72,7 @@ function escolha2MEC() {
 
         return setTimeout(function() {
             window.onload = escolhaMEC4()
-        }, document.getElementById('meuAndroid').textContent.length * 25);
+        }, document.getElementById('meuAndroid').textContent.length * 30);
 
     }
 }
@@ -92,7 +92,7 @@ function escolhaMEC3() {
         document.getElementById('mortoTiroteio').style.display = 'flex'
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('mortoTiroteio').textContent.length * 25);
+        }, document.getElementById('mortoTiroteio').textContent.length * 30);
 
 
     } else if (escolhaMec3 == 2) {
@@ -100,14 +100,14 @@ function escolhaMEC3() {
         document.getElementById('fugaHelic').style.display = 'flex'
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('fugaHelic').textContent.length * 25);
+        }, document.getElementById('fugaHelic').textContent.length * 30);
 
     } else if (escolhaMec3 == 3) {
         document.getElementById('fugirArmado').style.display = 'none'
         document.getElementById('pegaArmadura').style.display = 'flex'
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('pegaArmadura').textContent.length * 25);
+        }, document.getElementById('pegaArmadura').textContent.length * 30);
     }
 }
 
@@ -126,13 +126,13 @@ function escolhaMEC4() {
         document.getElementById('pegaArmadura').style.display = 'flex'
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('pegaArmadura').textContent.length * 25);
+        }, document.getElementById('pegaArmadura').textContent.length * 30);
     } else if (escolhaMec4 == 2) {
         document.getElementById('meuAndroid').style.display = 'none'
         document.getElementById('mortoTiroteio').style.display = 'flex'
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html';
-        }, document.getElementById('mortoTiroteio').textContent.length * 25);
+        }, document.getElementById('mortoTiroteio').textContent.length * 30);
     }
 
 }

@@ -8,7 +8,7 @@
 // function teste()
 setTimeout(function() {
     window.onload = escolha1()
-}, document.getElementById('inicio').textContent.length * 25);
+}, document.getElementById('inicio').textContent.length * 30);
 
 
 function escolha1() {
@@ -27,7 +27,7 @@ function escolha1() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, document.getElementById('gameover').textContent.length * 25);
+        }, document.getElementById('gameover').textContent.length * 30);
 
 
 
@@ -37,7 +37,7 @@ function escolha1() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, document.getElementById('gameover').textContent.length * 25);
+        }, document.getElementById('gameover').textContent.length * 30);
 
     } else if (escolhaMerce1 == 3) {
 
@@ -46,7 +46,7 @@ function escolha1() {
 
         return setTimeout(function() {
             window.onload = escolhamercenario2()
-        }, document.getElementById('telhado').textContent.length * 25);
+        }, document.getElementById('telhado').textContent.length * 30);
 
     }
 }
@@ -70,7 +70,7 @@ function escolhamercenario2() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, document.getElementById('gameover').textContent.length * 25);
+        }, document.getElementById('gameover').textContent.length * 30);
 
     } else if (escolha2 == 2) {
         document.getElementById('telhado').style.display = 'none'
@@ -79,7 +79,7 @@ function escolhamercenario2() {
 
         return setTimeout(function() {
             window.onload = escolhamercenario3()
-        }, document.getElementById('laboratorio').textContent.length * 25);
+        }, document.getElementById('laboratorio').textContent.length * 30);
 
 
     } else if (escolha2 == 3) {
@@ -88,7 +88,7 @@ function escolhamercenario2() {
 
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, document.getElementById('gameover').textContent.length * 25);
+        }, document.getElementById('gameover').textContent.length * 30);
 
     }
 
@@ -109,7 +109,7 @@ function escolhamercenario3() {
         document.getElementById('fimbom').style.display = "flex";
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, document.getElementById('fimbom').textContent.length * 25);
+        }, document.getElementById('fimbom').textContent.length * 30);
 
 
     } else if (escolha3 == 2) {
@@ -117,7 +117,7 @@ function escolhamercenario3() {
         document.getElementById('fimruim').style.display = "flex";
         return setTimeout(function() {
             window.onload = window.location.href = 'index.html'
-        }, document.getElementById('fimruim').textContent.length * 25);
+        }, document.getElementById('fimruim').textContent.length * 30);
 
     }
 
